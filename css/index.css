@@ -1,0 +1,203 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+ul{
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+}
+.wrapper{
+	width: 1366px;
+	height: 675px;
+	box-sizing: border-box;
+	border: 1px solid black;
+	padding: 2px;
+}
+.header_wrapper{
+	width: 100%;
+	height: 60px;
+	background-color: #2470bc;
+	color: #fff;
+}
+.header_left{
+	height: 60px;
+	width: 300px;
+	float: left;
+}
+.logo_header{
+	height: 60px;
+	width: 100px;
+	line-height: 60px;
+	font-weight: bold;
+	text-align: center;
+	background-color: #606fc7;
+	float: left;
+}
+.title_header{
+	height: 60px;
+	width: 200px;
+	box-sizing: border-box;
+	line-height: 60px;
+	padding: 0 15px;
+	float: left;
+	font-weight: bold;
+}
+.header_right{
+	height: 60px;
+	width: 350px;
+	float: right;
+}
+.change_header{
+	display: inline-block;
+	line-height: 60px;
+	padding: 0 10px;
+	opacity:0.5;
+}
+.search_header{
+	display: inline-block;
+	line-height: 60px;
+	padding: 0 10px;
+}
+.account_header{
+	display: inline-block;
+	line-height: 60px;
+	padding: 0 10px;
+}
+
+
+
+
+.body_wrapper{
+	width: 100%;
+	height: 569px;
+	background-color: #eee;
+}
+.pane{
+	width: 255px;
+	height: 565px;
+	background-color: white;
+	float: left;
+}
+.pane_titlebar{
+	width: 100%;
+	height: 25px;
+	line-height: 20px;
+	background-color: #eee;
+	font-size: 10px;
+	position: relative;
+}
+.pane_titlebar span{
+	margin-left: 5px;
+}
+.pane_titlebar_close{
+	height: 100%;	
+	margin-right: 5px;
+	display: inline;
+}
+.pane_titlebar_close img{
+	width: 12px;
+	height: 12px;
+	line-height: 20;
+	display: inline-block;
+	position: absolute;
+	top: 6px;
+	right: 0;
+}
+.pane_nav{
+	width: 80px;
+	height: 539px;
+	background: #eee;
+	float: left;
+}
+.pane_content{
+	width: 175px;
+	height: 544px;
+	float: left;
+}
+.pane_nav ul li{
+	font-size: 12px;
+	color: #32408f;
+	text-align: center;
+	padding: 10px 5px;
+	display: block;
+	width: 80px;
+	height:69;
+}
+.pane_nav .pane_nav_active{
+	background-color: white;
+}
+.pane_nav ul li a img{
+	width: 30px;
+	height: 30px;
+}
+.pane_nav ul li a span{
+	margin-top: 5px;
+	color: #32408f;
+}
+
+
+.canvas{
+	width: 1100px;
+	height: 569px;
+	float: left;
+
+}
+.canvas_view{
+	width: 1105px;
+	height: 25px;
+	background: #606fc7;
+	/*display: inline-block;*/
+
+}
+.canvas_view ul li{
+	display: inline-block;
+	font-size: 12px;
+	height: 25px;
+	line-height: 25px;
+	color: #fff;
+	padding: 0 5px;
+}
+.canvas_view ul .view_active{
+	background-color:  #eee;
+	color: black;
+
+}
+
+
+
+
+.footer_wrapper{
+	width: 100%;
+	height: 40px;
+	background: #2470bc;
+}
+.docs{
+	float: left;
+	color: #fff;
+	height: 40px;
+	line-height: 40px;
+	font-size: 12px;
+	background: url("../images/ic_document.png") no-repeat scroll left center;
+	padding-left: 35px;
+	margin-right: 10px;
+}
+.liveChat{
+	float: left;
+	color: #fff;
+	height: 40px;
+	line-height: 40px;
+	font-size: 12px;
+	background: url("../images/ic_bottom_head_portarit.png") no-repeat scroll left center;
+	padding-left: 35px;
+}
+.footer_rigth{
+	float: right;
+	color: #fff;
+	height: 40px;
+	line-height: 40px;
+	background: url("../images/ic_direction_down.png") no-repeat scroll left center;
+	padding-left: 35px;
+}
