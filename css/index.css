@@ -58,8 +58,17 @@ a{
 }
 .search_header{
 	display: inline-block;
-	line-height: 60px;
+ 	line-height: 60px;
+	/* height: 60px; 
+	width: 20px; */
 	padding: 0 10px;
+	position: relative;
+}
+.search_header img{
+/* 	display: inline-block;
+margin: 20px 0;
+position: absolute;
+top: -30px; */
 }
 .account_header{
 	display: inline-block;
@@ -76,7 +85,7 @@ a{
 	background-color: #eee;
 }
 .pane{
-	width: 255px;
+	width: 265px;
 	height: 565px;
 	background-color: white;
 	float: left;
@@ -107,7 +116,7 @@ a{
 	right: 0;
 }
 .pane_nav{
-	width: 80px;
+	width: 90px;
 	height: 539px;
 	background: #eee;
 	float: left;
@@ -137,19 +146,21 @@ a{
 	margin-top: 5px;
 	color: #32408f;
 }
-
+.pane_nav ul li span{
+	color: #32408f;
+	font-size: 12px;
+}
 
 .canvas{
-	width: 1100px;
+	width: 1090px;
 	height: 569px;
 	float: left;
 
 }
 .canvas_view{
-	width: 1105px;
+	width: 1095px;
 	height: 25px;
 	background: #606fc7;
-	/*display: inline-block;*/
 
 }
 .canvas_view ul li{
@@ -193,11 +204,12 @@ a{
 	background: url("../images/ic_bottom_head_portarit.png") no-repeat scroll left center;
 	padding-left: 35px;
 }
-.footer_rigth{
+.export{
 	float: right;
 	color: #fff;
 	height: 40px;
 	line-height: 40px;
 	background: url("../images/ic_direction_down.png") no-repeat scroll left center;
 	padding-left: 35px;
+	margin-right: 10px;
 }

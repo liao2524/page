@@ -44,8 +44,9 @@ a{
 	padding: 0 10px;
 	opacity:0.5;
 }
-.search_header{
-	line-height: 60px;
+.search_header {
+	display: flex;
+	align-items: center;
 	padding: 0 10px;
 }
 .account_header{
@@ -67,6 +68,11 @@ a{
 	display:flex;
 	flex-direction:column;
 	background-color: white;
+}
+.pane_body{
+	flex: 1;
+	display: flex;
+	flex-direction:row;
 }
 .pane_titlebar{
 	width: 100%;
@@ -94,11 +100,56 @@ a{
 	right: 0;
 }
 .pane_nav{
-	width: 80px;
+	width: 90px;
 	height: 539px;
 	background: #eee;
-	float: left;
 }
+.pane_content{
+	width: 200px;
+	height: 544px;
+}
+.pane_nav ul li{
+	font-size: 12px;
+	color: #32408f;
+	text-align: center;
+	padding: 10px 5px;
+	width: 80px;
+	height:69;
+}
+.pane_nav ul li a img{
+	width: 30px;
+	height: 30px;
+}
+.pane_nav ul li span{
+	color: #32408f;
+}
+
+.canvas{
+	display:flex;
+	flex-direction:column;
+	flex: 1;
+}
+.canvas_view{
+	width: 1070px;
+	height: 25px;
+	background: #606fc7;
+
+}
+.canvas_view ul li{
+	display: inline-block;
+	font-size: 12px;
+	height: 25px;
+	line-height: 25px;
+	color: #fff;
+	padding: 0 5px;
+}
+.canvas_view ul .view_active{
+	background-color:  #eee;
+	color: black;
+
+}
+
+
 
 .footer_wrapper{
 	display:flex;
@@ -106,4 +157,32 @@ a{
 	width: 100%;
 	height: 40px;
 	background: #2470bc;
+}
+.docs{
+	color: #fff;
+	height: 40px;
+	line-height: 40px;
+	font-size: 12px;
+	background: url("../images/ic_document.png") no-repeat scroll left center;
+	padding-left: 35px;
+	margin-right: 15px;
+}
+.liveChat{
+	flex: 1;
+	height: 40px;
+	line-height: 40px;
+	font-size: 12px;
+	background: url("../images/ic_bottom_head_portarit.png") no-repeat scroll left center;
+	padding-left: 35px;
+}
+.liveChat a{
+	color: #fff;
+}
+.export{
+	color: #fff;
+	height: 40px;
+	line-height: 40px;
+	background: url("../images/ic_direction_down.png") no-repeat scroll left center;
+	padding-left: 35px;
+	margin-right: 10px;
 }
